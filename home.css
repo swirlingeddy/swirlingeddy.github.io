@@ -1,6 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: blue;
 }
 
 .header {
@@ -8,4 +7,5 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 20%;
 }
