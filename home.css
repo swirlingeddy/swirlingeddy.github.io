@@ -1,9 +1,17 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gelasio', serif;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('background.png');
+}
+
+.container {
+  background: rgba(255,255,255,0.5);
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 20%;
+  border-radius: 20px;
 }
 
 .header {
@@ -11,5 +19,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20%;
+  margin: inherit;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.header h3 {
+  font-size: 30px;
 }
