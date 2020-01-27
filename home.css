@@ -3,7 +3,15 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('background.png');
+  /*background-image: url('background.png');*/
+}
+
+html { 
+  background: url('background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container {
