@@ -38,3 +38,26 @@ html {
 .header h3 {
   font-size: 30px;
 }
+
+.nav {
+  list-style:none;
+  padding:0;
+  text-align:center;
+}
+
+.nav li {
+  display:inline;
+}
+
+.nav a {
+  display:inline-block;
+  padding:10px;
+  background:rgba(255,255,255,0.7);
+  border-radius: 10px;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-family: 'Gelasio', serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
